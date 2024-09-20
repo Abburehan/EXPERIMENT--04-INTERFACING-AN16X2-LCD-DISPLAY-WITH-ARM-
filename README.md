@@ -179,10 +179,10 @@ Lcd_PortType ports[] = {GPIOA,GPIOA,GPIOA,GPIOA};
   Lcd_HandleTypeDef lcd;
   lcd = Lcd_create(ports,pins,GPIOB,GPIO_PIN_0,GPIOB,GPIO_PIN_1,LCD_4_BIT_MODE);
   Lcd_cursor(&lcd, 0,0);
-  Lcd_string(&lcd, "DEPT scoft");
+  Lcd_string(&lcd, "DEPT AIML");
 
   Lcd_cursor(&lcd, 1,0);
-  Lcd_string(&lcd, "Santhan");
+  Lcd_string(&lcd, "Rehan");
 ```
 ## Output screen shots of proteus  :
  
